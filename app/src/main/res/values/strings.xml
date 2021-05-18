@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AndroidFundamentals</string>
+    <string name="title">My First TextView!!</string>
+
+    <array name="photos">
+        <item>Photo1</item>
+        <item>Photo2</item>
+        <item>Photo3</item>
+    </array>
 </resources>
