@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightPink"
+    android:orientation="vertical"
+    tools:context=".week6.MainActivity6">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.example.androidfundamentals.week6.Fragment6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="@dimen/margin_medium_size" />
+
+    <Button
+        android:id="@+id/hideFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:text="Hide Fragment"/>
+</LinearLayout>

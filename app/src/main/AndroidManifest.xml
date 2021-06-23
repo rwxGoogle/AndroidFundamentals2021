@@ -10,12 +10,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidFundamentals">
-        <activity android:name=".SecondMainActivity5"/>
+        android:theme="@style/Theme.AndroidFundamentals.NoActionBar">
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main6"/>
+        <activity
+            android:name=".MainNavigationActivity"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name=".week6.MainActivity6"
+            android:label="@string/title_activity_main_navigation" />
+        <activity android:name=".MainActivity5" />
+        <activity android:name=".SecondMainActivity5" />
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".MainActivity5">
+        <activity android:name=".MainActivity6">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
