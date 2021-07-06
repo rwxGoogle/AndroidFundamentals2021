@@ -4,8 +4,8 @@
     "surname": "Adams",
     "address": "San Jose, CA",
     "child": {
-     "name": "Brian",
-     "surname": "Man"
+     "firstname": "Brian",
+     "lastname": "Man"
     }
   },
   {
@@ -13,8 +13,8 @@
     "surname": "Wilson",
     "address": "New York, NY",
      "child": {
-         "name": "Andy",
-         "surname": "Man"
+         "firstname": "Andy",
+         "lastname": "Man"
         }
   }
 ]

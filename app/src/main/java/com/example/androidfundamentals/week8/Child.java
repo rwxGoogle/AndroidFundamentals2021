@@ -3,9 +3,9 @@ package com.example.androidfundamentals.week8;
 import com.google.gson.annotations.SerializedName;
 
 public class Child {
-    @SerializedName("name")
+    @SerializedName("firstname")
     private String name;
-    @SerializedName("surname")
+    @SerializedName("lastname")
     private String surname;
 
     public String getName() {
