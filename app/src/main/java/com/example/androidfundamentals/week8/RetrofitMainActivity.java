@@ -28,7 +28,7 @@ public class RetrofitMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_retrofit_main_activity);
 
         PersonApi api = getRetrofit().create(PersonApi.class);
-        Call<List<User>> persons = api.getPersons(SECOND_FILE);
+        Call<List<User>> persons = api.getPersons(FIRST_FILE);
         persons.enqueue(new Callback<List<User>>() {
             @Override
             public void onResponse(Call<List<User>> call, Response<List<User>> response) {
@@ -39,7 +39,8 @@ public class RetrofitMainActivity extends AppCompatActivity {
                     List<User> users = response.body();
 
                     for (User user : users) {
-                        Log.d("Response", "Username= " + user.getName());
+                        String childName = user.getChild().getName();
+                        Log.d("Response", "Username= " + user.getName() + " childName= " + childName);
                     }
 
                 } else {

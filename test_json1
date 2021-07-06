@@ -4,13 +4,17 @@
     "surname": "Adams",
     "address": "San Jose, CA",
     "child": {
-     "name": "John",
-     "surname": "Adams"
+     "name": "Brian",
+     "surname": "Man"
     }
   },
   {
     "name": "Andy",
     "surname": "Wilson",
-    "address": "New York, NY"
+    "address": "New York, NY",
+     "child": {
+         "name": "Andy",
+         "surname": "Man"
+        }
   }
 ]
