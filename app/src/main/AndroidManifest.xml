@@ -24,12 +24,13 @@
             android:name=".week6.MainActivity6"
             android:label="@string/title_activity_main_navigation" />
         <activity android:name=".MainActivity5" />
+        <activity android:name=".MainActivity7" />
         <activity android:name=".SecondMainActivity5" />
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".MainActivity7"
+            android:name=".week8.RetrofitMainActivity"
             android:theme="@style/MyAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

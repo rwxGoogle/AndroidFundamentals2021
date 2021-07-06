@@ -2,7 +2,11 @@
   {
     "name": "John",
     "surname": "Adams",
-    "address": "San Jose, CA"
+    "address": "San Jose, CA",
+    "child": {
+     "name": "John",
+     "surname": "Adams"
+    }
   },
   {
     "name": "Andy",
