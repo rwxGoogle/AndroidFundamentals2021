@@ -3,6 +3,8 @@
     package="com.example.androidfundamentals">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
 
     <application
         android:allowBackup="true"
@@ -11,9 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidFundamentals.NoActionBar">
+        <activity android:name=".MainActivity6" />
         <activity
             android:name=".MainActivity2"
-            android:label="@string/title_activity_main6"/>
+            android:label="@string/title_activity_main6" />
         <activity
             android:name=".MainNavigationActivity"
             android:label="@string/title_activity_main2" />
@@ -25,7 +28,9 @@
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".MainActivity6">
+        <activity
+            android:name=".MainActivity7"
+            android:theme="@style/MyAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
