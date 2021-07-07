@@ -9,5 +9,5 @@ import retrofit2.http.Path;
 public interface PersonApi {
 
     @GET("/rwxGoogle/AndroidFundamentals2021/master/{fileName}")
-    Call<List<User>> getPersons(@Path("fileName") String jsonToFetch);
+    Call<List<User>> getUsers(@Path("fileName") String jsonToFetch);
 }

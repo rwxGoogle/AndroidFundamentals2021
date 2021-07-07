@@ -46,10 +46,12 @@ public class User {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "User{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 ", homeAddress='" + homeAddress + '\'' +
+                ", childName='" + child.getName() + '\'' +
+                ", childLastName='" + child.getSurname() + '\'' +
                 '}';
     }
 

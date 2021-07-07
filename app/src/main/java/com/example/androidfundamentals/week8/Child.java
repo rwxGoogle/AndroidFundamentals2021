@@ -26,7 +26,7 @@ public class Child {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Child{" +
                 "name='" + name + '\'' +
                 ", surname='" + surname + '\'' +
                 '}';

@@ -28,7 +28,7 @@ public class RetrofitMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_retrofit_main_activity);
 
         PersonApi api = getRetrofit().create(PersonApi.class);
-        Call<List<User>> persons = api.getPersons(FIRST_FILE);
+        Call<List<User>> persons = api.getUsers(FIRST_FILE);
         persons.enqueue(new Callback<List<User>>() {
             @Override
             public void onResponse(Call<List<User>> call, Response<List<User>> response) {
