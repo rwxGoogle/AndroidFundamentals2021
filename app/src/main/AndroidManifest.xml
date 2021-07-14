@@ -29,8 +29,10 @@
         <activity android:name=".MainActivity4" />
         <activity android:name=".MainActivity3" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".week8.RetrofitMainActivity" />
+        <activity android:name=".week9.SharedPrefActivity" />
         <activity
-            android:name=".week8.RetrofitMainActivity"
+            android:name=".week9.RoomActivity"
             android:theme="@style/MyAppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
